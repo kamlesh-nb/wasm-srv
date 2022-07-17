@@ -1,0 +1,16 @@
+[package]
+name = "actor"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+tokio = { version = "1", features = ["sync", "time", "macros"] }
+async-trait = "0.1"
+slog = "2.7.0"
+
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+
+

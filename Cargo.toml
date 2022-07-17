@@ -1,0 +1,9 @@
+[workspace]
+members = [
+	"wasm-srv",
+	"crates/actor",
+	"crates/querygen"
+]
+
+
+
